@@ -1,0 +1,134 @@
+/* styles.css */
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #f9dcdc;
+    /* padding: 10px; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    width: 100px;
+    
+  }
+  
+  .navigation {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navigation li {
+    margin-right: 20px;
+  }
+  
+  .navigation li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hamburger-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .line {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+  }
+  
+  .product-showcase {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider {
+    display: flex;
+    overflow-x: auto;
+  }
+  
+  .product {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .searching {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #search-input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color:  #f9dcdc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color:  #f9dcdc;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .footer-links ul li:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-media a:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .social-media img {
+    width: 20px;
+    height: 20px;
+  }
